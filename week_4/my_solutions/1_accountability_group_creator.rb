@@ -46,10 +46,8 @@
 #             end
 #         end
 #         unit_hash["unit" + h.to_s] = group_hash
-#     end
-    
+#     end  
 #     return unit_hash
-
 # end
 
 
@@ -70,9 +68,13 @@ def group_create(names_array)
     return unit_hash
 end
 
-cohort = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "zz"]
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
+
+# cohort array represents 27 names.  Single letters used in the interest of
+# saving space and time
+
+cohort = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "zz"]
 
 p group_create(cohort).keys[0] == "unit1" # unit1 is 1st key of outer hash
 p group_create(cohort).keys[1] == "unit2" # unit2 is 2nd key of outer hash
@@ -109,6 +111,18 @@ p group_create(cohort).values[2].values[4].length == 4
 p group_create(cohort).values[2].values[5].length == 4
 
 
-
 # 5. Reflection 
 
+# This was a pretty neat challenge (and it WAS a challenge)!  At first, 
+# I was confused about how to write the test.  But once I saw how the
+# tests were done from week 3's group challenge, I had a better idea of
+# what to do.  I learned quite a few things about the relationship between
+# hashes and arrays.  I also learned a cool labeling trick from Code School's
+# Ocean of Objects lesson (it wss under Javascript, but easily applied to
+# Ruby).  I wasn't sure exactly what tests to include or how much of it to
+# include.  In addition to thinking about HOW I was going to get from point
+# A to point B via the pseudocode, the driver test code really helped
+# me think ahead about what sort of code STRUCTURE I wanted to write.
+# I spent a lot more time planning on paper than I did on the keyboard,
+# but it was nice to be able to implement my ideas once I had them all 
+# planned out.
