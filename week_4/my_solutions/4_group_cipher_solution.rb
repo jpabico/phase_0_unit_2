@@ -81,49 +81,28 @@ def north_korean_cipher(coded_message)
     decoded_sentence = []                     
 
     cipher = {}     # recreated cipher via for loops
-    keys_1 = ("e".."z").to_a 
-    values_1 = ("a".."v").to_a 
-    keys_2 = ("a".."d").to_a
-    values_2 = ("w".."z").to_a 
-
-    for i in 0...keys_1.length
-        cipher[keys_1[i]] = values_1[i]
+    keys = ("e".."z").to_a + ("a".."d").to_a
+    values = ("a".."v").to_a + ("w".."z").to_a 
+    for i in 0...keys.length
+        cipher[keys[i]] = values[i]
     end
-
-    for i in 0...keys_2.length
-        cipher[keys_2[i]] = values_2[i]
-    end
-             
+           
   input.each do |x| 
     found_match = false  
     cipher.each_key do |y| 
-      if x == y  
-        puts "I am comparing x and y. X is #{x} and Y is #{y}."
-        decoded_sentence << cipher[y]
-        found_match = true
-        break  
-      elsif x.match(/[@#%&\$\^\*]/)   # replaced with regular expressions
-        decoded_sentence << " "
-        found_match = true
-        break
-      elsif (0..9).to_a.include?(x) 
-        decoded_sentence << x
-        found_match = true
-        break
-      end 
+      decoded_sentence << cipher[y] if x == y
+      decoded_sentence << " " if x.match(/[@#%&\$\^\*]/)
+      decoded_sentence << x if (0..9).to_a.include?(x)
+      found_match = true if x == y || x.match(/[@#%&\$\^\*]/) || (0..9).to_a.include?(x)
+      break if found_match == true
     end
-    if not found_match  
-      decoded_sentence << x
-    end
+      decoded_sentence << x if not found_match
   end
-  
-  decoded_sentence = decoded_sentence.join("")
- 
-  if decoded_sentence.match(/\d+/) 
-    decoded_sentence.gsub!(/\d+/) { |num| num.to_i / 100 } 
-  end  
+   
+  revealed_message = decoded_sentence.join("")
+  revealed_message.gsub!(/\d+/) { |num| num.to_i / 100 } if revealed_message.match(/\d+/)
+  return revealed_message 
 
-  return decoded_sentence      
 end
 
 
