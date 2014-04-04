@@ -140,3 +140,22 @@ p north_korean_cipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvmxsw
 
 # Reflection
  
+
+# Run the code to see what the expected output is.
+# Write tests using driver test code. What can you rely on? What can't you rely on?
+# Copy the initial code and identify what each line of code is doing. 
+# Write comments next to or above each line with an explanation. 
+# Really focus on breaking each step down. You want to understand every line.
+# Refactor (by rewriting) the initial solution
+# Clean up the variable names.
+# The original code used a hard-coded hash to do the encryption. 
+# Can you create a simple algorithm instead? 
+# The original shift was by 4 characters. 
+# What would happen if it was changed to 10?
+# Reflect
+# Sync your changes (push your solution) to Github, 
+# then  email your code to your accountability group.
+# Review the other solutions in your accountability groups. 
+# Were the solutions different? What did the others do well or better than you? 
+# What did you do well? Comment on each solution. 
+# Arrange a half hour discussion on the weekend to discuss your different approaches.
