@@ -66,9 +66,13 @@
 #     end   #end of conditional
 #   end   #end of input.each method
 #   decoded_sentence = decoded_sentence.join("")   # returns a string created by converting each elements of the array to a string and combining them into one string 
- 
-#   if decoded_sentence.match(/\d+/) # if strings are found that contain digits as strings (not numbers/floats), do the following...
-#     decoded_sentence.gsub!(/\d+/) { |num| num.to_i / 100 } # convert string digits into integers, divide each integer by 100 and replace the original number by the result
+
+
+# create a copy of the string stored in var decoded_sentence and then look at each letter of the string to see if it is a digit;
+# any digit you find in the copied string, make it an integer and then divide it by 100; then return the adjusted copied string (destructive method)
+  
+#   if decoded_sentence.match(/\d+/) 
+#     decoded_sentence.gsub!(/\d+/) { |num| num.to_i / 100 } 
 #   end   # end of conditional
 #   return decoded_sentence # this is the string of the decoded message       
 # end   # end of method
@@ -77,7 +81,7 @@
 # Your Refactored Solution
 
 def north_korean_cipher(coded_message)        
-    input = coded_message.downcase.split("")  
+    input_as_arr_of_letters = coded_message.downcase.split("")  
     decoded_sentence = []                     
 
     cipher = {}     # recreated cipher via for loops
@@ -87,7 +91,7 @@ def north_korean_cipher(coded_message)
         cipher[keys[i]] = values[i]
     end
            
-  input.each do |x| 
+  input_as_arr_of_letters.each do |x| 
     found_match = false  
     cipher.each_key do |y| 
       decoded_sentence << cipher[y] if x == y
@@ -98,17 +102,37 @@ def north_korean_cipher(coded_message)
     end
       decoded_sentence << x if not found_match
   end
-   
+ 
+=begin    ALTERNATIVE - EASIER TO READ (THE ABOVE IS JUST SHORTER)
+ input_as_arr_of_letters.each do |x| 
+    found_match = false  
+    cipher.each_key do |y| 
+      if x == y  
+        puts "I am comparing x and y. X is #{x} and Y is #{y}."
+        decoded_sentence << cipher[y]
+        found_match = true
+        break  
+      elsif x == "@" || x == "#" || x == "$" || x == "%"|| x == "^" || x == "&"|| x =="*" #What the heck is this doing?
+        decoded_sentence << " "
+        found_match = true
+        break
+      elsif (0..9).to_a.include?(x) 
+        decoded_sentence << x
+        found_match = true
+        break
+      end 
+    end  
+=end 
+    
   revealed_message = decoded_sentence.join("")
   revealed_message.gsub!(/\d+/) { |num| num.to_i / 100 } if revealed_message.match(/\d+/)
   return revealed_message 
 
 end
 
-
 # Driver Code:
 p north_korean_cipher("m^aerx%e&gsoi!").class == String
-p north_korean_cipher("m^aerx%e&gsoi!") == north_korean_cipher("m^aerx%e&gsoi!").downcase
+p north_korean_cipher("m^aerx%e&gsoi!") != north_korean_cipher("m^aerx%e&gsoi!").capitalize
 p north_korean_cipher("m^aerx%e&gsoi!") == "i want a coke!" #This is driver code and should print true
 # Find out what Kim Jong Un is saying below and turn it into driver code as well. Driver Code statements should always return "true"
 p north_korean_cipher("syv@tistpi$iex#xli*qswx*hipmgmsyw*erh*ryxvmxmsyw%jsshw^jvsq^syv#1000000#tvsjmxefpi$jevqw.") == "our people eat the most delicious and nutritious foods from our 10000 profitable farms."
@@ -119,22 +143,3 @@ p north_korean_cipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvmxsw
 
 # Reflection
  
-
-# Run the code to see what the expected output is.
-# Write tests using driver test code. What can you rely on? What can't you rely on?
-# Copy the initial code and identify what each line of code is doing. 
-# Write comments next to or above each line with an explanation. 
-# Really focus on breaking each step down. You want to understand every line.
-# Refactor (by rewriting) the initial solution
-# Clean up the variable names.
-# The original code used a hard-coded hash to do the encryption. 
-# Can you create a simple algorithm instead? 
-# The original shift was by 4 characters. 
-# What would happen if it was changed to 10?
-# Reflect
-# Sync your changes (push your solution) to Github, 
-# then  email your code to your accountability group.
-# Review the other solutions in your accountability groups. 
-# Were the solutions different? What did the others do well or better than you? 
-# What did you do well? Comment on each solution. 
-# Arrange a half hour discussion on the weekend to discuss your different approaches.
