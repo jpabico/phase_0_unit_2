@@ -76,14 +76,14 @@
 
 # Your Refactored Solution
 
-def north_korean_cipher(coded_message)
-    input = coded_message.downcase.split("")
-    decoded_sentence = []
+def north_korean_cipher(coded_message)        
+    input = coded_message.downcase.split("")  
+    decoded_sentence = []                     
 
     cipher = {}     # recreated cipher via for loops
     keys_1 = ("e".."z").to_a 
     values_1 = ("a".."v").to_a 
-    keys_2 = ("a".."d").to_a 
+    keys_2 = ("a".."d").to_a
     values_2 = ("w".."z").to_a 
 
     for i in 0...keys_1.length
@@ -98,11 +98,11 @@ def north_korean_cipher(coded_message)
     found_match = false  
     cipher.each_key do |y| 
       if x == y  
-        #puts "I am comparing x and y. X is #{x} and Y is #{y}."
+        puts "I am comparing x and y. X is #{x} and Y is #{y}."
         decoded_sentence << cipher[y]
         found_match = true
         break  
-      elsif x == "@" || x == "#" || x == "$" || x == "%"|| x == "^" || x == "&"|| x =="*" 
+      elsif x.match(/[@#%&\$\^\*]/)   # replaced with regular expressions
         decoded_sentence << " "
         found_match = true
         break
@@ -116,15 +116,15 @@ def north_korean_cipher(coded_message)
       decoded_sentence << x
     end
   end
+  
   decoded_sentence = decoded_sentence.join("")
  
   if decoded_sentence.match(/\d+/) 
     decoded_sentence.gsub!(/\d+/) { |num| num.to_i / 100 } 
   end  
+
   return decoded_sentence      
 end
-
-
 
 
 # Driver Code:
