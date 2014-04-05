@@ -142,4 +142,17 @@ p north_korean_cipher("ribx^wxst:$wsyxl%osvie,$xlir$neter,#xlir%xli%asvph!") == 
 p north_korean_cipher("ger^wsqifshc*nywx^kix^qi&10000*fekw@sj$gssp%vergl@hsvmxsw?") == "can somebody just get me 100 bags of cool ranch doritos?"
 
 # Reflection
- 
+This was a good challenge.  I was able to work with a new accountability 
+group member and learn from her strengths and methods.  Most of the problems
+that we faced working together as a pair were related to the challenge 
+itself.  Some of the instructions were open for interpretation.  When asked
+to go line by line and understand what each and every line meant, we
+sort of groaned at the thought of having to explain even the most obvious
+commands (e.g. end means end of method).  Also, in terms of refactoring, 
+was the code going to be better because we used fewer lines, was using more
+efficient methods, made it more readable, or what?  The instructions
+didn't help in this sense.  But overall, I found the challenge to be
+enjoyable because I had a great partner to work with.  She was patient
+and a very good problem solver.  She also had a way of putting into words
+what I couldn't (or had difficulty with).  I definitely benifitted from
+working with somebody on this challenge.
