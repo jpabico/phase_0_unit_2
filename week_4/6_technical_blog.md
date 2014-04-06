@@ -6,8 +6,6 @@
 - Research a public ruby method and identify a scenario it could be used in
 - Explain how to use an existing ruby method
 
-## Purpose
-
 
 ## Directions
 Copy your blog tempate into a new HTML file named `week4_technical.html`. 
