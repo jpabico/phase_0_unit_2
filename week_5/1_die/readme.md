@@ -1,4 +1,4 @@
-[Week 5 Home](./)
+[Week 5 Home](../)
 
 # U2.W5: Die Class 1: Numeric
 

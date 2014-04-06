@@ -1,4 +1,4 @@
-[Week 5 Home](./)
+[Week 5 Home](../)
 
 # U1.W5: Technical Blog Entry
 
