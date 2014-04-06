@@ -8,8 +8,11 @@
 - Implement a basic Ruby class and identify when to use instance variables
 - Use if/else statements, string methods, while/until loops, Enumerable#each methods
 - Find and use built-in Ruby methods to solve challenges
+- Explain how instance variables and methods represent the characteristics and actions of an object
 
 ## Background
+Before starting this challenge, you will want to read a bit about classes and ruby objects. Try these: [Writing our own Class in Ruby](http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html), [Ruby Classes and Objects](http://www.tutorialspoint.com/ruby/ruby_classes.htm), or read about classes in [The Well-Grounded Rubyist (Book)](http://www.manning.com/black2/). You definitely want to research this before you try it. Classes are a different thing altogether and may be difficult to understand at first. Don't worry, you'll get lots of practice this week!
+
 Implement a basic `Die` class which can be initialized with some number of sides.  We can then roll the die, returning a random number.  It should work like this:
 
 ```ruby
