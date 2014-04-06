@@ -11,7 +11,7 @@
 Copy your blog tempate into a new HTML file named `week5_technical.html`. 
 
 ## Topic
-You've had a LOT of practice with classes this week, so now is the time to teach others about it! Pick something you would like to model and teach others when to use instance variables, instance methods, etc. 
+You've had a LOT of practice with ruby classes this week, so now is the time to teach others about it! Pick something you would like to model and teach others when to use instance variables, instance methods, etc. 
 
 Be sure to be thorough. This is part of your portfolio that will help set you apart to employers when you graduate, so have fun and show your enthusiasm!
 

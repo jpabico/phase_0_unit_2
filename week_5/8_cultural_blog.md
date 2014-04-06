@@ -1,23 +1,19 @@
 [Week 5 Home](./)
 
-# U2, W5: 
+# U2, W5: Cultural Blog - Issues in Tech
 
 ## Learning Objectives
--
--
+- Identify a problem facing the tech world
+- Explain why it is a problem and some background
+- Hypothesize about potential solutions
 
 ## Directions
 
-First, create a new HTML file for your this post in your [USERNAME].github.io website. Create a new HTML file and use the date to name it `week5_cultural_blog.html`. Copy the Code from your `blog_template`. 
+Copy your blog tempate into a new HTML file named `week5_cultural.html`. 
 
-Conduct some research on strategies for dealing with conflict. You can include some conflict resolution, but also focus on learning how to identify the source of the conflict. 
+Research about some of the problems facing the tech world. Select one. Explain the problem and background in your blog, and then hypothesize potential solutions in your blog post. 
 
-Once you've opened your file, write a response to each exercise using the HTML you've learned to set up the file: 
-
-1. Discuss a time you had an emotional conflict with someone. What was it about? What happened? 
-2. How did you handle that conflict? What did you do?
-3. Did your actions make the conflict better or worse?
-4. If you could go back, what would you do differently, if anything?
+Now that you have had some time to work on ruby, go back and practice your HTML. Improve your site. Make it look like a professional website if it doesn't already. Would you want to show a potential employer your site? Make it so you would. 
 
 ## Submission
 Link to your blog on the index of your site and sync your changes. 
