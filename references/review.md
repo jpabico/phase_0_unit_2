@@ -1,10 +1,8 @@
-### Review other's solutions
+# Reviewing Solutions
 
 Review two of your accountability group members' solutions, and give them kind, specific, and actionable feedback. 
 
 **Try to review others' solutions equally this week.**
-
-# Reviewing Solutions
 
 ### How to find other solutions
 Take a look at some other students' solutions to the challenges. To do this, go to the fork icon at the top of your repo. There
