@@ -1,11 +1,12 @@
 # U2.W5: A Nested Array to Model a Boggle Board
 
+# I worked on this challenge [by myself, with: ].
+
 boggle_board = [["b", "r", "a", "e"],
                 ["i", "o", "d", "t"],
                 ["e", "c", "l", "r"],
                 ["t", "a", "k", "e"]]
 
-# I worked on this challenge [by myself, with: ].
 
 # Part 1: Access multiple elements of a nested array
 
