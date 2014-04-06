@@ -20,7 +20,7 @@ Your future career will require you to deal with a lot of "legacy code," i.e. co
 4. When you get to code that is difficult to read, seems redundant, or stupidly executed, pause and refactor it. Make sure your changes don't break any of the tests! Refactor with future expandability in mind, you may decide to add some features later!
  
 
-## BONUS SECTION: (In case you didn't get enough of the delicious horrible-code) Expand the program for the customer based on their requests. Use the methodology you've been practicing! (Write [Driver Test Code](../references/driver_code.md), [Pseudocode](../references/pseudocode.md), [Write your initial solution](../references/initial_solution.md), [Refactor](../references/refactoring.md), [Reflect](../references/reflection_guidelines.md))
+## BONUS SECTION: (In case you didn't get enough of the delicious horrible-code) Expand the program for the customer based on their requests. Use the methodology you've been practicing! (Write [Driver Test Code](../../references/driver_code.md), [Pseudocode](../../references/pseudocode.md), [Write your initial solution](../../references/initial_solution.md), [Refactor](../../references/refactoring.md), [Reflect](../../references/reflection_guidelines.md))
 
 
 Hi! I am a small bakery owner who has a ruby program that calculates the 

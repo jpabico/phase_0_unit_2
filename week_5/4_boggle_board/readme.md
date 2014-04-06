@@ -71,13 +71,13 @@ puts boggle_board[2][3] == "x" #=> should be false
 
 ## Directions
  
-1. Start with [Pseudocode](../references/pseudocode.md) after playing in IRB with nested arrays. 
-2. [Initial Solution](../references/initial_solution.md)
-3. Write 2 Tests using [Driver Test Code](../references/driver_code.md)
-3. [Refactored Solution](../references/refactoring.md)
-4. [Reflect](../references/reflection_guidelines.md)
+1. Start with [Pseudocode](../../references/pseudocode.md) after playing in IRB with nested arrays. 
+2. [Initial Solution](../../references/initial_solution.md)
+3. Write 2 Tests using [Driver Test Code](../../references/driver_code.md)
+3. [Refactored Solution](../../references/refactoring.md)
+4. [Reflect](../../references/reflection_guidelines.md)
 5. Sync your changes (push your solution) to Github
-6. [Review](../references/review.md)
+6. [Review](../../references/review.md)
 
 
 ## External Resources
