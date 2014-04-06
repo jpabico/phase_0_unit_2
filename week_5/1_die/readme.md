@@ -19,7 +19,7 @@ die.roll # returns a random number between 1 and 6
 
 If we pass `Die.new` a number less than `1`, we should raise an `ArgumentError`.  This is done using the `raise` keyword.  See the [ArgumentError documentation](http://apidock.com/ruby/ArgumentError) for how to do this.
 
-Use the Ruby Docs to see how to return a random number. 
+Use the [Ruby Docs](http://www.ruby-doc.org/) to see how to return a random number. 
 
 ## Directions
  
