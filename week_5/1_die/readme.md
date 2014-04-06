@@ -4,9 +4,10 @@
 
 
 ## Learning Objectives
-- objective 1
-- objective 2
-- objective 3
+- Break down problems into implementable pseudocode 
+- Implement a basic Ruby class and identify when to use instance variables
+- Use if/else statements, string methods, while/until loops, Enumerable#each methods
+- Find and use built-in Ruby methods to solve challenges
 
 ## Background
 Implement a basic `Die` class which can be initialized with some number of sides.  We can then roll the die, returning a random number.  It should work like this:

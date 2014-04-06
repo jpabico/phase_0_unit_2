@@ -4,9 +4,11 @@
 
 
 ## Learning Objectives
-- objective 1
-- objective 2
-- objective 3
+- Manipulate and access data within data structures
+- Decompose a problem into smaller, easier to solve components
+- Iterate through data structures and manipulate the content
+- Find and use built-in Ruby methods to solve challenges
+
 
 ## Background
 Given a credit card number we should be able to validate whether it is valid based on the [Luhn algorithm](http://en.wikipedia.org/wiki/Luhn_algorithm).
@@ -19,11 +21,13 @@ While the word [algorithm](http://en.wikipedia.org/wiki/Algorithm) sounds scary 
 
 The above steps if followed explicitly give us cooked pasta!
 
-Starting with the second to last digit, double every other digit until you reach the first digit
+For this challenge, we will need to break down the algorithm into the following steps. You will probably want to break these down into individual methods. 
 
-Sum all the untouched digits and the doubled digits (doubled digits need to be broken apart, 10 becomes 1 + 0)
+1. Starting with the second to last digit, double every other digit until you reach the first digit
 
-If the total is a multiple of ten, you have received a valid credit card number!
+2. Sum all the untouched digits and the doubled digits (doubled digits need to be broken apart, 10 becomes 1 + 0)
+
+3. If the total is a multiple of ten, you have received a valid credit card number!
 
 ```ruby
 Example given 4563 9601 2200 1999
@@ -35,6 +39,8 @@ Step 4: Profit
 ```
 
 Your class will need to return `true` or `false` when we call the `#check_card`.  Your class needs to be initialized with a credit card number that is exactly 16 digits otherwise you should receive an `ArgumentError`.
+
+Make sure you pseudocode! These are big steps and they are a bit complicated, so break it down. You should be able to explain every line you write here!
 
 ## Directions
  

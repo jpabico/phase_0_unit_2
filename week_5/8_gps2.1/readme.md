@@ -5,9 +5,9 @@
 **This is a Guided Pairing Session challenge for Unit 2. Please do not look at the challenge until your guided pairing session.**
 
 ## Learning Objectives
-- objective 1
-- objective 2
-- objective 3
+- Identify and explain what code is doing
+- Identify and rewrite repetitive code
+- Use if/else statements, string methods, while/until loops, Enumerable#each methods
 
 ## Background
 Your future career will require you to deal with a lot of "legacy code," i.e. code that works as intended, but is difficult to modify. Sometimes you will be given the option to start over or modify the original code. Other times you will be forced to work with legacy code due to time or budget constraints. In this challenge, you have the option to completely trash the code and start over or work with the code that's here, but make sure that it works the same way. The driver code should still print "true" without being modified.

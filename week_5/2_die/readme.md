@@ -4,9 +4,10 @@
 
 
 ## Learning Objectives
-- objective 1
-- objective 2
-- objective 3
+- Break down problems into implementable pseudocode 
+- Implement a basic Ruby class and identify when to use instance variables
+- Use if/else statements, string methods, while/until loops, Enumerable#each methods
+- Find and use built-in Ruby methods to solve challenges
 
 ## Background
 Working off your previous `Die` class from [Die Class 1](http://socrates.devbootcamp.com/exercises/46), implement a new `Die` class which takes an array of strings as its input.  When `Die#roll` is called, it randomly returns one of these strings.  If `Die.new` is passed an empty array, raise an `ArgumentError`.  It should work like this:

@@ -4,9 +4,9 @@
 
 
 ## Learning Objectives
-- objective 1
-- objective 2
-- objective 3
+- Decompose a problem into smaller, easier to solve components
+- Manipulate and access data within data structures
+- Find and use built-in Ruby methods to solve challenges
 
 ## Background
 Create an `RPNCalculator` class which can evaluate expressions written in [Reverse Polish notation](http://en.wikipedia.org/wiki/Reverse_Polish_notation).

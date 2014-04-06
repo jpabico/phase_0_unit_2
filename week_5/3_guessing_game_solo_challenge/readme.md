@@ -4,9 +4,10 @@
 
 
 ## Learning Objectives
-- objective 1
-- objective 2
-- objective 3
+- Break down problems into implementable pseudocode 
+- Implement a basic Ruby class and identify when to use instance variables
+- Use if/else statements, string methods, while/until loops, Enumerable#each methods
+- Explain how instance variables and methods represent the characteristics and actions of an object
 
 ## Background
 

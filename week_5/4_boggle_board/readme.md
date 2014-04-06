@@ -4,9 +4,10 @@
 
 
 ## Learning Objectives
-- objective 1
-- objective 2
-- objective 3
+- Break down problems into implementable pseudocode 
+- Create, access, and traverse nested data structures
+- Explain how data structures can model a real-world object
+- Explain how instance variables and methods represent the characteristics and actions of an object
 
 ## Background
 

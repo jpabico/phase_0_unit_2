@@ -1,12 +1,15 @@
 [Week 5 Home](./)
 
-# U2.W5: Virus Predictor
+# U2.W5: Virus Predictor 
 
 
 ## Learning Objectives
-- objective 1
-- objective 2
-- objective 3
+- Identify and explain what code is doing
+- Create, access, and traverse nested data structures
+- Automate repetitive tasks using loops
+- Define a method's responsiblity
+- Identify and rewrite repetitive code
+- Explain `private` and discuss when it would be used
 
 ## Background
 
