@@ -36,4 +36,5 @@ I love the program as it is, but I want to add a couple of features:
 
 *NOTE: Write your own tests based on your expansion. The original tests should still pass.*
 
-## Submit your solution by sync your changes (push your solution) to Github! Remember to include your pair's name!
+## Submit your solution 
+Sync your changes (push your solution) to Github! Remember to include your pair's name!
