@@ -8,12 +8,13 @@ This week you will be working on creating ruby classes and translating RSpec int
 1. [Die Class 1: Numeric](1_die)
 2. [Die Class 2: Arbitrary Symbols](2_die)
 3. [Build a Simple Guessing Game SOLO CHALLENGE](3_guessing_game_solo_challenge)
-4. [Virus Predictor Group Challenge](4_virus_predictor)
-5. [Validate Credit Card](5_validate_credit_card)
-6. [Technical Blog](6_technical_blog.md)
-7. [Cultural Blog](7_cultural_blog.md)
-8. [GPS 2.1- Don't look until your GPS Session!](8_gps2.1)
-9. [BONUS: Reverse Polish Notation Calculator](9_BONUS_rpn)
+4. [A Nested Array to Model a Boggle Board](4_boggle_board)
+5. [Virus Predictor Group Challenge](5_virus_predictor)
+6. [Validate Credit Card](6_validate_credit_card)
+7. [Technical Blog](7_technical_blog.md)
+8. [Cultural Blog](8_cultural_blog.md)
+9. [GPS 2.1- Don't look until your GPS Session!](9_gps2.1)
+10. [BONUS: Reverse Polish Notation Calculator](10_BONUS_rpn)
 
 
 ## Submitting your work
