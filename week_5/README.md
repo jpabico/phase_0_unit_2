@@ -1,7 +1,6 @@
 # Week 5: Ruby Classes
 
-This week you will be working on creating ruby classes and translating RSpec into driver code. Please make sure to follow each step we ask you to do (write driver test code, pseudocode, initial solution, refactoring, reflection, and review). 
-
+This week you will be working on creating ruby classes and translating RSpec into driver code. Please make sure to follow each step we ask you to do (write driver test code, pseudocode, initial solution, refactoring, reflection, and review). This week gets into more advanced concepts, so make sure you pair as often as you need to ensure you are able to learn efficiently and have fun doing it! You can pair on any challenge (except for solo challenges) and you have an awesome community of programmers to pair with. You can always ask people to pair on the community and work with people from other locations! 
 
 
 ## Challenges
