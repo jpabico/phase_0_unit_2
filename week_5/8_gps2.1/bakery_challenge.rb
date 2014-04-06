@@ -4,7 +4,7 @@
 # 1)
 # 2)
 
- 
+ # This is the file you should end up editing. 
  
 def bakery_num(num_of_people, fav_food)
   my_list = {"pie" => 8, "cake" => 6, "cookie" => 1}
