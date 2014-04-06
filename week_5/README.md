@@ -1,24 +1,37 @@
-Week 2: Flow Control, Recursion, Regular Expressions
--------------------------
+# Week 5: Ruby Classes
 
-### By the end of week 2, you should be able to:
-- [ ] Solve a problem using both iteration and tail recursion
-- [ ] Apply regular expression methods 
-- [ ] Automate repetitive tasks using loops 
-- [ ] Use if/else statements, regular expressions, string methods, while/until loops, Enumerable#each methods with confidence
-- [ ] Implement a basic Ruby class and identify when to use instance variables
+This week you will be working on creating ruby classes and translating RSpec into driver code. Please make sure to follow each step we ask you to do (write driver test code, pseudocode, initial solution, refactoring, reflection, and review). 
 
-### Assignments and Challenges:
 
-1. **NEW:** [Read up](https://gist.github.com/dbc-challenges/5aea3150ddec2aec1007) on the best way to write test code.
-2. **NEW:** Create test code that translates the rspec tests included in the exercise.  See the first challenge for more details.
-3. Formulate pseudocode before solving each problem (include it as a comment).  Make sure you pass all the tests and get green!
-4. Refactor each solution so the names are clear and the code is concise and D.R.Y. (Don’t Repeat Yourself). Ensure your code still passes the RSpec tests by resubmitting it with your changes.  
-5. Reflect on your process and understanding (see section below). Include your reflection as comments in your solution.  
 
-#### Coding Challenges
-- [ ] [SOLO CHALLENGE: Separate Numbers with Commas](http://socrates.devbootcamp.com/challenges/427) 
-- [ ] [Regular Expressions ](http://socrates.devbootcamp.com/challenges/426)
-- [ ] [Fibonacci number](http://socrates.devbootcamp.com/challenges/428)  
-- [ ] [Cipher Challenge](http://socrates.devbootcamp.com/challenges/425)
-- [ ] [BONUS: Solve Fibonacci again with a new approach](http://socrates.devbootcamp.com/challenges/430)
+## Challenges
+1. [Die Class 1: Numeric](1_die)
+2. [Die Class 2: Arbitrary Symbols](2_die)
+3. [Build a Simple Guessing Game SOLO CHALLENGE](3_guessing_game_solo_challenge)
+4. [Virus Predictor Group Challenge](4_virus_predictor)
+5. [Validate Credit Card](5_validate_credit_card)
+6. [Technical Blog](6_technical_blog.md)
+7. [Cultural Blog](7_cultural_blog.md)
+8. [GPS 2.1- Don't look until your GPS Session!](8_gps2.1)
+9. [BONUS: Reverse Polish Notation Calculator](9_BONUS_rpn)
+
+
+## Submitting your work
+You should fork the unit 2 repo into your GitHub Account by clicking the "fork" button on the top right of this page. You will be responsible for syncing changes from the unit 2 master repo by following the steps [here](http://stackoverflow.com/questions/11394349/upstream-pulls-with-the-github-desktop-client). Make sure you follow them step by step. 
+
+Just to make sure we keep things fun, we are going to have you work with `week_5` differently. Most of the challenges have multiple files, so you can find each file in a folder (directory). You will modify the `my_solutions.rb` file in each directory to add your code. 
+
+When you make updates to the files, you should commit your work the same way you did for your website through the app. Include a commit message that describes what you've changed. For example: "added my solution for 2_die"
+
+You need to submit your work through [this google form]() by Sunday at 11:59pm. Expect to submit the links from your repo for each challenge above. 
+
+
+## Resources
+*These are for reference if you want some additional sources.* 
+- [Writing our own Class in Ruby](http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html)
+- [Ruby Classes and Objects](http://www.tutorialspoint.com/ruby/ruby_classes.htm)
+- [Introduction to Refactoring](http://sourcemaking.com/refactoring/introduction-to-refactoring)   
+- [Ruby for Newbies](http://net.tutsplus.com/sessions/ruby-for-newbies)  
+- [Ruby Variable Scope](http://www.techotopia.com/index.php/Ruby_Variable_Scope) 
+- [GangesLearning (Videos)](https://www.youtube.com/user/GangesLearning)
+- [The Well-Grounded Rubyist (Book)](http://www.manning.com/black2/) - This is a really great Ruby reference. We recommend getting it.  
