@@ -4,9 +4,9 @@
 
 
 ## Learning Objectives
-- Manipulate and access data within data structures
+- Iterate through data structures
+- Manipulate data within data structures
 - Decompose a problem into smaller, easier to solve components
-- Iterate through data structures and manipulate the content
 - Find and use built-in Ruby methods to solve challenges
 
 
