@@ -30,6 +30,8 @@ Sync changes from the master repo by following the steps [here](http://stackover
 directions. 
 - If you are doing it from the command line, follow [these](https://help.github.com/articles/syncing-a-fork) directions.
 
+Open your local version of the directory in Sublime. Make your changes and commit/sync as you complete challenges.
+
 Make sure to include specific commit messages and sync your changes each time you complete a challenge.
 
 You need to submit your work through [this google form]() by Sunday at 11:59pm. Expect to submit the links from your repo for each challenge above. 
