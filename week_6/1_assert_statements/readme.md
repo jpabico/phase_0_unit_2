@@ -3,9 +3,7 @@
 # U2.W6: Testing with Assert Statements
 
 ## Learning Objectives
-- objective 1
-- objective 2
-- objective 3
+- Translate driver test code into assert statements
 
 ## Background
 
