@@ -1,4 +1,4 @@
-[Week 6 Home](./)
+[Week 6 Home](../)
 
 # U2.W6: 
 
