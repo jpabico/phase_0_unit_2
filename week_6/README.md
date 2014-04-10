@@ -1,23 +1,40 @@
-Week 3: Classes and Advanced Algorithms
--------------------------
+Week 6: Object Oriented Design in Ruby
 
-### By the end of week 3, you should be able to:
-- [ ] Combine classes, methods, loops, and recursion to solve challenges
-- [ ] Break down problems and manipulate data within data structures  
-- [ ] Use multiple methods within classes to solve problems
-- [ ] Implement solutions based on mathematical algorithms
+Description
 
-### Assignments and Challenges:
-*For each challenge:*
 
-1. Formulate pseudocode before solving the problem (include it as a comment).  
-2. Refactor each solution so the names are clear and the code is concise and D.R.Y. (Don’t Repeat Yourself). Ensure your code still passes the RSpec tests by resubmitting it with your changes.  
-3. Reflect on your process and understanding (see section below). Include your reflection as comments in your solution.  
-4. Complete the [Unit Reflection Survey](https://docs.google.com/forms/d/1vNru5aR3a3lWOZ9MoUzfgqe-ud1nBPvkIkfUAXG3FhI/viewform) by Sunday at 11:59pm.
+## Challenges
+1. []()
+2. []()
+3. []()
+4. []()
+5. []()
+6. []()
+7. []()
+8. []()
+9. []()
+10. []()
 
-#### Coding Challenges
-- [ ] [Die Class 1: Numeric ](http://socrates.devbootcamp.com/challenges/429) 
-- [ ] [Die Class 2: Arbitrary Symbols](http://socrates.devbootcamp.com/challenges/432)  
-- [ ] [SOLO CHALLENGE: Build a simple guessing game ](http://socrates.devbootcamp.com/challenges/431)
-- [ ] [Class Warfare, Validate a Credit Card Number](http://socrates.devbootcamp.com/challenges/434)  
-- [ ] [BONUS: Reverse Polish notation calculator](http://socrates.devbootcamp.com/challenges/433)  
+
+## Submitting your work
+Sync changes from the master repo by following the steps [here](http://stackoverflow.com/questions/11394349/upstream-pulls-with-the-github-desktop-client). Make sure you follow them step by step. If you experience problems, please attend office hours. It's difficult to diagnose problems relating to git and github via email. 
+
+- If you are doing this from the Github Desktop App, follow [these](http://stackoverflow.com/questions/11394349/upstream-pulls-with-the-github-desktop-client
+)
+directions. 
+- If you are doing it from the command line, follow [these](https://help.github.com/articles/syncing-a-fork) directions.
+
+Make sure to include specific commit messages and sync your changes each time you complete a challenge.
+
+You need to submit your work through [this google form]() by Sunday at 11:59pm. Expect to submit the links from your repo for each challenge above. 
+
+
+## Resources
+*These are for reference if you want some additional sources.* 
+- [Writing our own Class in Ruby](http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html)
+- [Ruby Classes and Objects](http://www.tutorialspoint.com/ruby/ruby_classes.htm)
+- [Introduction to Refactoring](http://sourcemaking.com/refactoring/introduction-to-refactoring)   
+- [Ruby for Newbies](http://net.tutsplus.com/sessions/ruby-for-newbies)  
+- [Ruby Variable Scope](http://www.techotopia.com/index.php/Ruby_Variable_Scope) 
+- [GangesLearning (Videos)](https://www.youtube.com/user/GangesLearning)
+- [The Well-Grounded Rubyist (Book)](http://www.manning.com/black2/) - This is a really great Ruby reference. We recommend getting it.  
