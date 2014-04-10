@@ -4,23 +4,23 @@
 # I worked on this challenge [by myself, with: ].
 
 
-# 2. Pseudocode
+# Pseudocode
 
 
 
-# 3. Initial Solution
-
-
-
-
-# 4. Refactored Solution
+# Initial Solution
 
 
 
 
+# Refactored Solution
 
 
-# 1. DRIVER TESTS GO BELOW THIS LINE
+
+
+
+
+# DRIVER TESTS GO BELOW THIS LINE
 one_by_one = Song.new("One by One", "Sirenia")
 world_so_cold = Song.new("World So Cold", "Three Days Grace") 
 going_under = Song.new("Going Under", "Evanescence")
@@ -42,4 +42,4 @@ my_playlist.display
 
 
 
-# 5. Reflection 
+# Reflection 

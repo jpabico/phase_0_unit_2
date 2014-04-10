@@ -1,6 +1,6 @@
 [Week 6 Home](../)
 
-# U2.W6: Create a PezDispenser Class from User Stories
+# U2.W6: Create a PezDispenser Class from User Stories **[SOLO CHALLENGE](https://github.com/Devbootcamp/phase_0_handbook/blob/master/solo_challenges.md) OPTION 1**
 
 
 ## Learning Objectives
