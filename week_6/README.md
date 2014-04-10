@@ -4,16 +4,16 @@ Description
 
 
 ## Challenges
-1. []()
-2. []()
-3. []()
-4. []()
-5. []()
-6. []()
-7. []()
-8. []()
-9. []()
-10. []()
+
+1. [Testing with Assert Statements]()
+2. [Drawer Debugger]()
+3. [Creating a BoggleBoard Class]()
+4. [Creating a PezDispenser Class]()
+5. [Create a Playlist from Driver Code - SOLO CHALLENGE]()
+6. [Refactoring for Code Readability]()
+7. [Technical Blog]() 
+8. [Cultural Blog]()
+9. [BONUS Creating a Car Class from User Stories]()
 
 
 ## Submitting your work
