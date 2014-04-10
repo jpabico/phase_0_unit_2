@@ -14,12 +14,11 @@ Week Description
 1. [Testing with Assert Statements](1_assert_statements)
 2. [Drawer Debugger](2_drawer_debugger)
 3. [Creating a BoggleBoard Class](3_BoggleBoard)
-4. [Creating a PezDispenser Class](4_PezDispenser)
-5. [Create a Playlist from Driver Code - SOLO CHALLENGE](5_Playlist_solo_challenge)
-6. [Refactoring for Code Readability](6_refactoring)
-7. [Technical Blog](7_technical_blog.md) 
-8. [Cultural Blog](8_technical_blog.md)
-9. [BONUS Creating a Car Class from User Stories](9_BONUS_CarClass)
+4. [Creating a PezDispenser Class](4_PezDispenser) **or** [Create a Playlist from Driver Code - SOLO CHALLENGE](4_Playlist_solo_challenge)
+5. [Refactoring for Code Readability](5_refactoring)
+6. [Technical Blog](6_technical_blog.md) 
+7. [Cultural Blog](7_technical_blog.md)
+8. [BONUS Creating a Car Class from User Stories](8_BONUS_CarClass)
 
 
 ## Submitting your work
