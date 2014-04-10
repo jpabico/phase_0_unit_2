@@ -1,4 +1,4 @@
-Week 6: Object Oriented Design in Ruby
+# Week 6: Object Oriented Design in Ruby
 
 Description
 
