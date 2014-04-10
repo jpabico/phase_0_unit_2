@@ -1,30 +1,26 @@
-# U2.W6: 
+# U2.W6: Refactoring for Code Readability
 
 
 # I worked on this challenge [by myself, with: ].
 
 
-# 2. Pseudocode
-
-
-
-# 3. Initial Solution
+# Original Solution
 
 
 
 
-# 4. Refactored Solution
+# Refactored Solution
 
 
 
 
 
 
-# 1. DRIVER TESTS GO BELOW THIS LINE
+# DRIVER TESTS GO BELOW THIS LINE
 
 
 
 
 
 
-# 5. Reflection 
+# Reflection 
