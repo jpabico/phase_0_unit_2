@@ -5,15 +5,15 @@ Description
 
 ## Challenges
 
-1. [Testing with Assert Statements]()
-2. [Drawer Debugger]()
-3. [Creating a BoggleBoard Class]()
-4. [Creating a PezDispenser Class]()
-5. [Create a Playlist from Driver Code - SOLO CHALLENGE]()
-6. [Refactoring for Code Readability]()
-7. [Technical Blog]() 
-8. [Cultural Blog]()
-9. [BONUS Creating a Car Class from User Stories]()
+1. [Testing with Assert Statements](1_assert_statements)
+2. [Drawer Debugger](2_drawer_debugger)
+3. [Creating a BoggleBoard Class](3_BoggleBoard)
+4. [Creating a PezDispenser Class](4_PezDispenser)
+5. [Create a Playlist from Driver Code - SOLO CHALLENGE](5_Playlist_solo_challenge)
+6. [Refactoring for Code Readability](6_refactoring)
+7. [Technical Blog](7_technical_blog.md) 
+8. [Cultural Blog](8_technical_blog.md)
+9. [BONUS Creating a Car Class from User Stories](9_BONUS_CarClass)
 
 
 ## Submitting your work
@@ -31,6 +31,7 @@ You need to submit your work through [this google form]() by Sunday at 11:59pm. 
 
 ## Resources
 *These are for reference if you want some additional sources.* 
+- [Practical Object-Oriented Design in Ruby (POODR - book)](http://www.poodr.com/) *HINT: work through one of your challenges as you read*
 - [Writing our own Class in Ruby](http://rubylearning.com/satishtalim/writing_our_own_class_in_ruby.html)
 - [Ruby Classes and Objects](http://www.tutorialspoint.com/ruby/ruby_classes.htm)
 - [Introduction to Refactoring](http://sourcemaking.com/refactoring/introduction-to-refactoring)   
