@@ -28,7 +28,7 @@ Open your local version of the directory in Sublime. Make your changes and commi
 
 Make sure to include specific commit messages and sync your changes each time you complete a challenge.
 
-You need to submit your work through [this google form]() by Sunday at 11:59pm. Expect to submit the links from your repo for each challenge above. 
+You need to submit your work through a google form (TBD) by Sunday at 11:59pm. Expect to submit the links from your repo for each challenge above. 
 
 ### Remember your Unit Goals!
 - Pair at least once this week with a member of your accountability group.  *You need to pair 4 times on your own this unit*
