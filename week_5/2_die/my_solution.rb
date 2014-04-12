@@ -66,3 +66,10 @@ p ("W".."Z").include? test_die_3.roll
 
 
 # 5. Reflection 
+# Nice challenge.  I was wondering how to change the labels of
+# the sides to be words or pictures.  Now I have a good idea
+# of how to do so.  The hardest part of this assignment was to
+# write the driver tests.  Actually, it's the part that is 
+# becoming more and more difficult for me.  Not to the point
+# where I can't do it, but I'm definitely taking more time
+# and giving more thought into it with each each challenge.
