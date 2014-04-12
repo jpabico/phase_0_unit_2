@@ -1,6 +1,7 @@
 [Week 6 Home](../)
 
-# U2.W6: Create a Playlist from Driver Code **[SOLO CHALLENGE](https://github.com/Devbootcamp/phase_0_handbook/blob/master/solo_challenges.md) OPTION 2**
+# U2.W6: Create a Playlist from Driver Code 
+**[SOLO CHALLENGE](https://github.com/Devbootcamp/phase_0_handbook/blob/master/solo_challenges.md) OPTION 2**
 
 
 ## Learning Objectives
