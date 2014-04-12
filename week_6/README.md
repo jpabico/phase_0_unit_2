@@ -9,7 +9,7 @@ Don't forget your Unit Goals (listed below)!
 1. [Testing with Assert Statements](1_assert_statements)
 2. [Drawer Debugger](2_drawer_debugger)
 3. [Creating a BoggleBoard Class](3_BoggleBoard)
-4. [Creating a PezDispenser Class](4_PezDispenser) **or** [Create a Playlist from Driver Code - SOLO CHALLENGE](4_Playlist_solo_challenge)
+4. [Creating a PezDispenser Class - SOLO CHALLENGE](4_PezDispenser) **or** [Create a Playlist from Driver Code - SOLO CHALLENGE](4_Playlist_solo_challenge)
 5. [Refactoring for Code Readability](5_refactoring)
 6. [Technical Blog](6_technical_blog.md) 
 7. [Cultural Blog](7_technical_blog.md)
