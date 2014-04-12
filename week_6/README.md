@@ -1,6 +1,6 @@
 # Week 6: Object Oriented Design in Ruby
 
-Last week you started creating your own objects in Ruby. This week you will be working with something called Object-Oriented Design. There is a great resource called [Practical Object-Oriented Design in Ruby book)](http://www.poodr.com/) (affectionately pronounced "Poo-Dur"). There isn't a free copy online, so use the mighty power of google (and the free book preview on Amazon) to introduce yourself to the fundamentals of object-oriented design.
+Last week you started creating your own objects in Ruby. This week you will be working with something called Object-Oriented Design. There is a great resource called [Practical Object-Oriented Design in Ruby (book)](http://www.poodr.com/) (affectionately pronounced "Poo-Dur"). There isn't a free copy online, so use the mighty power of google (and the free book preview on Amazon) to introduce yourself to the fundamentals of object-oriented design.
 
 Don't forget your Unit Goals (listed below)! 
 
@@ -17,7 +17,7 @@ Don't forget your Unit Goals (listed below)!
 
 
 ## Submitting your work
-Sync changes from the master repo by following the steps [here](http://stackoverflow.com/questions/11394349/upstream-pulls-with-the-github-desktop-client). Make sure you follow them step by step. If you experience problems, please attend office hours. It's difficult to diagnose problems relating to git and github via email. 
+Sync changes from the master repo by following the steps [here](http://stackoverflow.com/questions/11394349/upstream-pulls-with-the-github-desktop-client). Make sure you follow them step by step. If you experience problems, please attend office hours. It's difficult to diagnose problems relating to git and github via email. In the meantime, you can create the necessary files from the web version and copy the content. 
 
 - If you are doing this from the Github Desktop App, follow [these](http://stackoverflow.com/questions/11394349/upstream-pulls-with-the-github-desktop-client
 )

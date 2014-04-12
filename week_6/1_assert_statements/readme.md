@@ -23,7 +23,7 @@ In this challenge, we're going to write our own simple `assert` method to get in
 
 ## Directions
  
-1. Translate an assert into Pseudocode 
+####1. Translate an assert into Pseudocode 
 Let's take a look at a basic `assert` method to help us test a block of code.  Take the code below and test it out in IRB or the terminal.
 
 ```ruby 
@@ -40,7 +40,7 @@ What happens?  Write out in pseudocode what is happening with each assert method
 
 *If you need some brushing up on blocks and `yield`, read up about them [here](http://www.tutorialspoint.com/ruby/ruby_blocks.htm) and practice them on [Codecademy Blocks Tutorial](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI/0/1).*
 
-2. Translate your Driver Test Code into Assert Statements
+####2. Translate your Driver Test Code into Assert Statements
 
 In a previous challenges, you created Driver Test Code which looked something like:
 
@@ -55,6 +55,6 @@ Copy your favorite challenge so far into the `my_solution.rb` file in this direc
 
 Practice using assert statements often this week in your challenges!
 
-3. [Reflect](../references/reflection_guidelines.md)
-4. Sync your changes (push your solution) to Github
-5. [Review](../references/review.md)
+####3. [Reflect](../references/reflection_guidelines.md)
+####4. Sync your changes (push your solution) to Github
+####5. [Review](../references/review.md)
