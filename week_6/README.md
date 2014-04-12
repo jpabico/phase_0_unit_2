@@ -12,7 +12,7 @@ Don't forget your Unit Goals (listed below)!
 4. [Creating a PezDispenser Class - SOLO CHALLENGE](4_PezDispenser_solo_challenge) **or** [Create a Playlist from Driver Code - SOLO CHALLENGE](4_playlist_solo_challenge)
 5. [Refactoring for Code Readability](5_refactoring)
 6. [Technical Blog](6_technical_blog.md) 
-7. [Cultural Blog](7_technical_blog.md)
+7. [Cultural Blog](7_cultural_blog.md)
 8. [BONUS Creating a Car Class from User Stories](8_BONUS_CarClass)
 
 
