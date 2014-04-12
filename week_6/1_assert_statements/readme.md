@@ -55,6 +55,6 @@ Copy your favorite challenge so far into the `my_solution.rb` file in this direc
 
 Practice using assert statements often this week in your challenges!
 
-####3. [Reflect](../references/reflection_guidelines.md)
+####3. [Reflect](../../references/reflection_guidelines.md)
 ####4. Sync your changes (push your solution) to Github
-####5. [Review](../references/review.md)
+####5. [Review](../../references/review.md)

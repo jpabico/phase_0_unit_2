@@ -22,10 +22,10 @@ After you've fixed each error, you should have fun filling in each of the method
 
 ## Directions
  
-1. Review the [Driver Test Code](../references/driver_code.md) Convert as many of the driver code examples into driver test code based on the way you want to implement each method.
-2. [Pseudocode](../references/pseudocode.md)
-3. Write your [Initial Solution](../references/initial_solution.md)
-4. [Refactored](../references/refactoring.md)
-5. [Reflect](../references/reflection_guidelines.md)
+1. Review the [Driver Test Code](../../references/driver_code.md) Convert as many of the driver code examples into driver test code based on the way you want to implement each method.
+2. [Pseudocode](../../references/pseudocode.md)
+3. Write your [Initial Solution](../../references/initial_solution.md)
+4. [Refactored](../../references/refactoring.md)
+5. [Reflect](../../references/reflection_guidelines.md)
 6. Sync your changes (push your solution) to Github
-7. [Review](../references/review.md)
+7. [Review](../../references/review.md)

@@ -17,7 +17,7 @@ You will run into numerous error messages as a developer, so it's important to k
 2. Debug the program
 Run the code from the console. You should encounter 5 errors before it will run completely (excluding the bonus - uncomment the line to work on it). Read each error carefully and fix it. 
 3. Ensure each method is working as expected. You may need to create or modify methods to make the program run properly.
-4. Write tests using [Driver Test Code](../references/driver_code.md) or `assert` statements (make sure you have your assert method defined!)
+4. Write tests using [Driver Test Code](../../references/driver_code.md) or `assert` statements (make sure you have your assert method defined!)
 5. Interact with the code by writing at least three more different method calls. Did they return what you expected?
-6. [Reflect](../references/reflection_guidelines.md)
+6. [Reflect](../../references/reflection_guidelines.md)
 7. Sync your changes (push your solution) to Github

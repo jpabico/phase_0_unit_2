@@ -43,10 +43,10 @@ What are the characteristics associated with the car?  These are your attributes
 - Log your total distance travelled  
 
 Notice how the writing out of your driver code can help you to name your methods more concisely.  Also notice how you are getting a much better idea of what your class looks like and what is happening under the hood. (again, no pun intended) 
-3. Using your driver code to fill out the class' innards[Initial Solution](../references/initial_solution.md)
+3. Using your driver code to fill out the class' innards[Initial Solution](../../references/initial_solution.md)
 4. Add functionality We all know that pizza delivery cars carry a whole bunch of pizzas, and this one has a super cool insulated compartment for keeping the pizzas hot. Include this feature in your car class. The only information about the pizzas you will be concerned with is the type of pizza, so keep things simple. To make things especially convenient, let's add a feature to your car to be able to get the next pizza to be delivered.  (This should be implemented [FIFO](http://en.wikipedia.org/wiki/FIFO) so nobody gets a cold pizza, but it's your call).
 5. Create a new class for pizza. Get creative and make your pizza an actual object!  Perhaps the pizza can be gluten-free or vegetarian (the pizza place is in SF after all).  What methods would you want to add to the pizza class?
-6. [Refactor](../references/refactoring.md) your code!
-7. [Reflect](../references/reflection_guidelines.md)
+6. [Refactor](../../references/refactoring.md) your code!
+7. [Reflect](../../references/reflection_guidelines.md)
 8. Sync your changes (push your solution) to Github
-9. [Review](../references/review.md)
+9. [Review](../../references/review.md)

@@ -22,10 +22,10 @@ Paste the original unrefactored code in your gist, and as you refactor, make not
 
 ## Directions
  
-1. Write tests using [assert](../1_assert_statements) statements so you can test the existing method and your changes.
-2. [Pseudocode](../references/pseudocode.md)
+1. Write tests using [assert](../../1_assert_statements) statements so you can test the existing method and your changes.
+2. [Pseudocode](../../references/pseudocode.md)
 3. Comment each block in the original solution
-4. [Refactor](../references/refactoring.md) the solution for readability
-5. [Reflect](../references/reflection_guidelines.md)
+4. [Refactor](../../references/refactoring.md) the solution for readability
+5. [Reflect](../../references/reflection_guidelines.md)
 6. Sync your changes (push your solution) to Github
-7. [Review](../references/review.md)
+7. [Review](../../references/review.md)
