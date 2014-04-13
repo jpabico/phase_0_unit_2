@@ -48,4 +48,15 @@ p bakery_num(41, "cake") == "You need to make 0 pie(s), 6 cake(s), and 5 cookie(
 
 #  Reflection 
 
-
+# This was a somewhat difficult challenge for me in terms of problem 
+# solving and determining what each line of code did.  Of course, 
+# this was partly due to the code purposely being "nonfriendly" and 
+# largely refactorable (that was the point of the exercise, right?).  
+# Luckily, I had a great partner who was patient and communicated his
+# thoughts clearly to me.  He always made sure I understood what was
+# going on and that we were always on the same page when it came to
+# deciding what to refactor or analyzing the problem differently.
+# This challenge was a good way to review what I knew about hashes.  
+# It also reiterated how important it is to have readable, uncluttered 
+# code so that future programmers who might need to update/change the 
+# code can do so with the least amount of inconvenience.
