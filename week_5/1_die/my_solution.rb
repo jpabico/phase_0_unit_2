@@ -64,7 +64,7 @@ p (1..test_die_3.sides).include? rand(1..33)
 
 
 # 5. Reflection 
-# Good way to get things started.  I had to keep looking at the
+# Good way to get things started. I had to keep looking at the
 # syntax for classes and class objects.  I'll need a lot more 
 # practice before I start feeling comforable with writing up
 # class without refering to anything.  While doing research, I
