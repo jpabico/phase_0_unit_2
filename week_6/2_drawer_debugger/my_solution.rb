@@ -1,7 +1,6 @@
 # U2.W6: Drawer Debugger
 
-
-# I worked on this challenge with Jon Pabico.
+# I worked on this challenge with Christiane Kammerl.
 ## Directions
 =begin 
 1. Format the code to indent it properly
@@ -41,12 +40,11 @@ class Drawer
         else
             @contents << item
         end
-
     end
 
     def remove_item(item = @contents.pop) #what is `#pop` doing?
         @contents.delete(item)
-        item
+        return item
     end
 
     def dump  # what should this method return?
@@ -128,10 +126,16 @@ silverware_drawer.view_contents #What should this return?
  puts fork.clean
 
 # DRIVER TESTS GO BELOW THIS LINE
-def assert 
-    raise "Fail" unless yield
-end
+test_fork = Silverware.new("testfork")
+p test_fork.class == Silverware
 
-    assert { silverware_drawer.dump.empty?}
-assert { silverware_drawer.class != Silverware}
-assert { silverware_drawer.remove_item("fork") == "fork"}
+def assert
+  raise "Assertion failed" unless yield 
+end 
+
+assert { fork.class == Silverware }
+assert { silverware_drawer.class == Drawer }
+assert { silverware_drawer.class != Silverware }
+assert { silverware_drawer.dump.empty? }
+assert { silverware_drawer.remove_item("fork") == "fork" }
+
