@@ -138,4 +138,3 @@ assert { silverware_drawer.class == Drawer }
 assert { silverware_drawer.class != Silverware }
 assert { silverware_drawer.dump.empty? }
 assert { silverware_drawer.remove_item("fork") == "fork" }
-
