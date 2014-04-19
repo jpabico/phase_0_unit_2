@@ -19,6 +19,54 @@
 # outputs diagonal of interest (if exists) as an array
 
 # 3. Initial Solution
+
+# class BoggleBoard
+
+# 	def initialize(board)
+# 		@board = board
+# 	end
+
+# 	def create_word(*coords)
+# 	 	coords.map { |coord| @board[coord.first][coord.last]}.join("")
+# 	end
+
+# 	def get_row(row)
+# 		return @board[row]
+# 	end
+
+# 	def get_col(column)
+# 		return @board.map { |x| x[column]}
+# 	end
+
+# 	def get_diagonal(coord1, coord2)
+# 		diag_array = []
+# 		if (coord1.first==coord1.last) && (coord2.first == coord2.last)
+# 			for i in 0..3
+# 				diag_array << @board[i][i]
+# 			end
+# 			return diag_array
+# 		elsif (coord1.first + coord1.last == 3) && (coord2.first + coord2.last == 3)
+# 			for j in 0..3
+# 				diag_array << @board[j][3-j]
+# 			end
+# 			return diag_array.reverse
+# 		else
+# 			return "Those 2 coordinates don't belong to the same diagonal"
+# 		end
+# 	end
+
+#  end
+  
+# dice_grid = [["b", "r", "a", "e"],
+#              ["i", "o", "d", "t"],
+#              ["e", "c", "l", "r"],
+#              ["t", "a", "k", "e"]]
+ 
+# boggle_board = BoggleBoard.new(dice_grid)
+ 
+
+# 4. Refactored Solution
+
 class BoggleBoard
 
 	def initialize(board)
@@ -38,20 +86,12 @@ class BoggleBoard
 	end
 
 	def get_diagonal(coord1, coord2)
-		diag_array = []
 		if (coord1.first==coord1.last) && (coord2.first == coord2.last)
-			for i in 0..3
-				diag_array << @board[i][i]
-			end
-			return diag_array
+			return [@board[0][0], @board[1][1], @board[2][2], @board[3][3]]
 		elsif (coord1.first + coord1.last == 3) && (coord2.first + coord2.last == 3)
-			for j in 0..3
-				diag_array << @board[j][3-j]
-			end
-			return diag_array.reverse
-		else
-			return "Those 2 coordinates don't belong to the same diagonal"
+			return [@board[3][0], @board[2][1], @board[1][2], @board[0][3]]
 		end
+		return "Those 2 coordinates don't belong to the same diagonal"
 	end
 
  end
@@ -62,14 +102,6 @@ dice_grid = [["b", "r", "a", "e"],
              ["t", "a", "k", "e"]]
  
 boggle_board = BoggleBoard.new(dice_grid)
- 
-
-
-# 4. Refactored Solution
-
-
-
-
 
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
