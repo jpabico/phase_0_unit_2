@@ -104,3 +104,14 @@ p test_card_2.check_card == false
 
 
 # Reflection 
+# In general, I like refactoring challenges (at least the ones that 
+# we've done).  It forces me to simplify, my logic, make my code more 
+# readable, and motivates me to look up new/alternative methods.  For 
+# this particular challenge, it was nice to browse through my classmates' 
+# solutions to give me ideas on others ways to accomplish the same task.
+# As I looked for one that I could refactor, I asked myself, "Which of 
+# these can I refactor without changing the method?"  I wanted to be 
+# able to distinguish between editing someone's code for readability vs 
+# editing someone's code for method/procedure.  Finding someone that 
+# solved it differently than the way I did it forced me to think about 
+# using different and new methods.

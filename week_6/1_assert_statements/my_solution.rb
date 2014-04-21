@@ -81,3 +81,11 @@ assert { group_create(cohort).values[2].values[4].length == 4 }
 assert { group_create(cohort).values[2].values[5].length == 4 }
 
 # 5. Reflection 
+# This was a nice introduction to testing with assert statements. Most of 
+# it was pretty straight forward.  I puprposely chose one of my previous 
+# challenges whose testing was long in length so that I could get a lot of 
+# practice typing out assert statements.  As I have mentioned in the past, 
+# it's not so much how to write a test that I find difficult; rather, it's 
+# trying to figure out what tests are useful/needed and most beneficial to 
+# the program at hand.  This is an area in which I feel I am lacking.  I will
+# continually try to improve in this area over the next few weeks.

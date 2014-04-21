@@ -15,6 +15,10 @@
 
 
 # 2. Pseudocode
+
+# inputs is an array of strings representing flavors
+# the output depends on the instance method called 
+# but includes those that are listed below
 # define a class PezDispenser
 # initialize instance varaibles @flavors and @pez_count
 # define pez_count method to keep track of how many pez pieces remain 
@@ -100,3 +104,11 @@ assert {"hi" == "hi"}
 
 
 # 5. Reflection 
+# This was a fun challenge.  I liked this one.  Partly because I 
+# was able to come up with a class structure faster than usual.  But 
+# also because I never realized how many things I took for granted 
+# (locigally speaking) when it came to loading, unloading, and eating 
+# pez candy.  I t reminded me of last week's "Guess the Number" challenge, 
+# but this time I had a better handle on instance variables and methods. 
+# This was a confidence builder.  In some ways, I wished that this was a 
+# longer challenge, but I might not have enjoyed it as much if it were.

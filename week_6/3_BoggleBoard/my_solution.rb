@@ -123,3 +123,12 @@ assert { boggle_board.get_diagonal([3,0],[1,3]) == "Those 2 coordinates don't be
 
 
 # 5. Reflection 
+# This was a good challenge.  It allowed me to see how the methods defined 
+# from last week could be combined into the same class for this week.  I'm 
+# starting to better understand how classes are set up and how its methods 
+# are connected to the objects of the class.  I'm still working on getting 
+# better at writing driver tests for my programs.  I find that to be one of 
+# the more difficult tasks in all of this week's challenges because I still 
+# have a hard time determining what tests would be most benificial and useful. 
+# Sometimes I feel like I'm writing different tests that all test for the exact 
+# same thing.
