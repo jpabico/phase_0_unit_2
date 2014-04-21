@@ -120,10 +120,8 @@ silverware_drawer.dump
 silverware_drawer.view_contents #What should this return?
 
 
-
-
 #BONUS SECTION
- puts fork.clean
+puts fork.clean
 
 # DRIVER TESTS GO BELOW THIS LINE
 test_fork = Silverware.new("testfork")
@@ -138,3 +136,16 @@ assert { silverware_drawer.class == Drawer }
 assert { silverware_drawer.class != Silverware }
 assert { silverware_drawer.dump.empty? }
 assert { silverware_drawer.remove_item("fork") == "fork" }
+
+#5 Reflection
+# This was a good exercise only insofar as I was working with a wonderful 
+# partner.  However, the challenge itself was a bit more difficult than we 
+# initially thought.  Not so much because we couldn't figure out how to make
+# something happen, but rather we couldn't figure out exactly what was being
+# asked of us and what each part of the program was supposed to do.  We decided 
+# to go with common sense (although we could have set the procedures in a variety 
+# of ways).  For example, open the drawer and take out a spoon before you can eat 
+# with a spoon, clean the spoon before putting it back into the drawer, etc.  
+# This did help me quite a bit trying to see how different objects from different 
+# classes can interact with one another.  It also gave me a chance to further 
+# practice writing assert statements.
